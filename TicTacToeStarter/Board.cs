@@ -9,6 +9,9 @@ namespace TicTacToeStarter
     internal class Board
     {
         PlayerEnum[,] board = new PlayerEnum[3, 3];
+        PlayerEnum currentPlayer = PlayerEnum.X;
+        int x_score_cumulative = 0;
+        int y_score_cumulative = 0;
 
         public Board()
         {
