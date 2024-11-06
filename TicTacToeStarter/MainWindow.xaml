@@ -6,7 +6,32 @@
         xmlns:local="clr-namespace:TicTacToeStarter"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/Images/Grid.png" Grid.RowSpan="3" Grid.ColumnSpan="3" Stretch="Fill"/>
+
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="0" Grid.Column="0" Stretch="Uniform"/>
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="0" Grid.Column="1" Stretch="Uniform"/>
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="0" Grid.Column="2" Stretch="Uniform"/>
+
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="1" Grid.Column="0" Stretch="Uniform"/>
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="1" Grid.Column="1" Stretch="Uniform"/>
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="1" Grid.Column="2" Stretch="Uniform"/>
+
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="2" Grid.Column="0" Stretch="Uniform"/>
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="2" Grid.Column="1" Stretch="Uniform"/>
+        <Image Source="/Images/tic-tac-toe_1181538.png" Grid.Row="2" Grid.Column="2" Stretch="Uniform"/>
     </Grid>
+
 </Window>

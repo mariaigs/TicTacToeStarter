@@ -109,5 +109,11 @@
   <ItemGroup>
     <Resource Include="Images\tic-tac-toe_x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tic-tac-toe_1181538.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Grid.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
