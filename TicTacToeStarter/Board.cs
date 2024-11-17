@@ -10,11 +10,11 @@ namespace TicTacToeStarter
     {
         PlayerEnum[,] board = new PlayerEnum[3, 3];
         PlayerEnum currentPlayer = PlayerEnum.X;
-        int x_score_cumulative = 0;
-        int y_score_cumulative = 0;
+        private int x_score_cumulative = 0;
+        private int y_score_cumulative = 0;
 
         public Board()
-        {
+        { 
             for(int x = 0; x < 3; x++)
             {
                 for (int y = 0; y < 3; y++)
