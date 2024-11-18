@@ -1,4 +1,9 @@
-﻿namespace TicTacToeStarter
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace TicTacToeStarter
 {
     public class Board
     {
@@ -12,12 +17,7 @@
 
         public Board()
         {
-            Reset();
-        }
-
-        public void Reset()
-        {
-            for (int x = 0; x < 3; x++)
+            for(int x = 0; x < 3; x++)
             {
                 for (int y = 0; y < 3; y++)
                 {
